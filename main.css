@@ -1,0 +1,110 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+
+
+/* Pozicionálás */
+
+#profile-card {
+  width: 700px;
+  max-width: calc(100vw - 10px);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  height: 100vh;
+}
+#head {
+	display: inline;
+}
+#head, #content {
+  text-align: center;
+}
+
+#head, #content {
+  width: 90%;
+  margin: 0 auto;
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 4%;
+}
+#profile-image {
+  float: right;
+	padding: 5%;
+}
+#cta {
+	color: white;
+	text-decoration: none;
+	background: purple;
+	padding: 2%;
+	border-radius: 4%;
+	}
+
+#links {
+	margin-top: 5%;
+}
+
+#cta:hover {
+  transition: all 0.5s ease-in-out;
+	color: grey;
+	} 
+/* Contact links */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+#head, #about {
+  margin-bottom: 5%;
+}
+
+#content, #head {
+  padding: 5% 10%;
+}
+
+
+body {
+  background: url('assets/10325.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+#profile-card {
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+	padding-bottom: 2%;
+	padding-top: 2%;
+}
+img {
+  padding: 1px;
+  background-color: purple;
+}
+img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(20%);
+}
+h1 {font-size: 30px;
+	  font-family: 'Liu Jian Mao Cao', cursive;
+
+}
+h2 {font-size: 20px;
+    font-family: 'Liu Jian Mao Cao', cursive;
+    color: purple;
+}
+i {color: purple;}

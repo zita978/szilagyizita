@@ -25,9 +25,6 @@ body {
 body {
   height: 100vh;
 }
-#head {
-	display: inline;
-}
 #head, #content {
   text-align: center;
 }
@@ -42,8 +39,7 @@ img {
   border-radius: 4%;
 }
 #profile-image {
-  float: right;
-	padding: 5%;
+ 	padding-top: 5%;
 }
 #cta {
 	color: white;
@@ -51,6 +47,7 @@ img {
 	background: purple;
 	padding: 2%;
 	border-radius: 4%;
+	margin-top: 2%;
 	}
 
 #links {
@@ -75,7 +72,7 @@ li {
 }
 
 #content, #head {
-  padding: 5% 10%;
+  padding: 0 10%;
 }
 
 
